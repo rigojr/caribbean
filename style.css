@@ -1,0 +1,15 @@
+/* Theme Name: Aeros - Caribbean Delight Theme V1
+ * Theme URI: aeros.io
+ * Author: Rigoberto Salas y Brian Amaya | Aeros Team Work
+ * Description: El presente desarrollo es un tema especializada para atender las necesidades del restaurante Caribbean Delight.
+ * Version: V1
+ * License: POR DEFINIR
+ * License URI: POR DEFINIR
+ */
+@import url(assets/css/normalize.css);
+/* BRIAN STYLES */
+@import url(assets/css/brian.css);
+/* RIGO STYLES */
+@import url(assets/css/rigo.css);
+
+/*# sourceMappingURL=style.css.map */
