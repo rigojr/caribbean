@@ -8,39 +8,48 @@ body div.bg {
   background-size: cover; }
 
 /* NAV */
-nav {
+body header.fix {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 15vh;
+  color: #FFFFFF;
+  background-color: #3B3B3B; }
+body header nav {
   padding: 3vh 0; }
-  nav ul li.nav-item {
+  body header nav ul li.nav-item {
     padding: 0 0.5vw; }
-    nav ul li.nav-item .vSeparator {
+    body header nav ul li.nav-item .vSeparator {
       border-left: 3px solid #ffffff;
       width: 1px;
       height: 4.5vw; }
-    nav ul li.nav-item a {
+    body header nav ul li.nav-item a {
       font-size: 2vw;
       color: #FFFFFF;
       transition: 300ms all ease; }
-      nav ul li.nav-item a:hover, nav ul li.nav-item a .active {
+      body header nav ul li.nav-item a:hover, body header nav ul li.nav-item a .active {
         border-bottom: 0.1rem solid #33DDFF !important; }
-    nav ul li.nav-item div.col-sm-12 img {
+    body header nav ul li.nav-item div.col-sm-12 img {
       width: 1.5rem;
       height: 1.5rem;
       display: inline-block;
       margin: 0 0.5rem; }
-    nav ul li.nav-item div.col-sm-12 p {
+    body header nav ul li.nav-item div.col-sm-12 p {
       font-size: 1vw;
       color: #FFFFFF;
       display: inline-block; }
 
-body div.container div.row div.col-sm div.col-sm-12.attention {
+body div#cont.content {
+  padding-top: 18vh; }
+body div#cont div.container div.row div.col-sm div.col-sm-12.attention {
   margin-top: 3.084375rem; }
-body div.container div.row div.col-sm div.col-sm-12 p {
+body div#cont div.container div.row div.col-sm div.col-sm-12 p {
   font-size: 4.3vh;
   color: #EDEEF6;
   text-shadow: 2px 2px #3B3B3B;
   margin: auto 5rem;
   font-weight: 300; }
-body div.container div.row div.col-sm img.logoR {
+body div#cont div.container div.row div.col-sm img.logoR {
   max-width: 100%;
   width: 42vh;
   height: 42vh;
@@ -56,7 +65,7 @@ body div.container div.row.latin {
     margin: auto; }
     body div.container div.row.latin div.col-sm-12 img.circle {
       display: block;
-      margin: -3.69vh auto;
+      margin: -3.6vh auto;
       max-width: 100%;
       height: 12vh; }
   body div.container div.row.latin div.col-sm-12 p {
