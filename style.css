@@ -6,10 +6,14 @@
  * License: POR DEFINIR
  * License URI: POR DEFINIR
  */
+/*FUENTE */
 @import url(assets/css/normalize.css);
 /* BRIAN STYLES */
 @import url(assets/css/brian.css);
 /* RIGO STYLES */
 @import url(assets/css/rigo.css);
+/*GENERAL */
+* {
+  font-family: "Josefin Sans", sans-serif !important; }
 
 /*# sourceMappingURL=style.css.map */
