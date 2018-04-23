@@ -1,52 +1,57 @@
 <?php get_header(); ?>
 
-<div id="cont">
+  <div id="cont">
       <div class="container">
         <div class="row">
-          <div class="col-sm att">
+          <div class="col-sm-7">
             <div class="col-sm-12 attention">
-              <p align="left">Monday - Thursday</p>
-              <p align="right">9AM - 8PM</p>
-            </div>
-            <div class="col-sm-12">
-              <p align="left">Friday &amp; Saturday</p>
-              <p align="right">9AM - 9PM</p>
+              <p>Latin and American Breakfast</p>
+              <p align="center">Monday - Saturday</p>
+              <p align="right" class="color">9AM - 8PM</p>
             </div>
           </div>
-          <div class="col-sm">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-first-view.png" class="logoR justify-content-center">
+          <div class="col-sm-7">
+            <div class="col-sm-12 attention">
+              <p>Dominican Lunch and Dinner</p>
+              <p align="center">Monday - Thursday</p>
+              <p align="right" class="color">9AM - 8PM</p>
+              <p align="center">Friday &amp; Saturday</p>
+              <p align="right" class="color">9AM - 9PM</p>
+            </div>
           </div>
+            <div class="col-sm-5">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-first-view.png" class="logoR justify-content-center">
+            </div>
         </div>
       </div>
-
-      <div class="container">
-        <div class="row latin">
-          <div class="col-sm-12">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/latin.png">
-          </div>
-          <div class="col-sm-12">
-            <p>11471 US 70 Bus HWY West Clayton, NC 27520</p>
-          </div>
-          <a id="lnkMenu" href="#menu">
-            <img class="circle" src="<?php echo get_template_directory_uri(); ?>/assets/img/circle.png">
-          </a>
-        </div>
+  </div>
+  <div class="container">
+    <div class="row latin">
+      <div class="col-sm-12">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/latin.png">
       </div>
+      <div class="col-sm-12">
+        <p>11471 US 70 Bus HWY West Clayton, NC 27520</p>
+      </div>
+      <!--<a id="lnkMenu" href="#menu">
+        <img class="circle" src="<?php echo get_template_directory_uri(); ?>/assets/img/circle.png">
+      </a>-->
     </div>
   </div>
+</div>
 
   <!-- MENU -->
   <div id="menu" class="container">
       <h1>MENU</h1>
       <div class="center">
-        <a id="lnkBreak" class="lined thick" href="#breakfast"> BREAKFAST </a>
-        <a id="lnkLunch" class="push lined thick" href="#lunch"> LUNCH </a>
-        <a id="lnkFam" class="push lined thick" href="#family"> FAMILY </a>
-        <a id="lnkDrinks" class="push lined thick" href="#drinks"> DRINKS </a>
+        <button type="button" id="lnkBreak" class="btn btn-primary" href="#breakfast"> BREAKFAST </button>
+        <button type="button" id="lnkLunch" class="push btn btn-primary" href="#lunch"> LUNCH </button>
+        <button type="button" id="lnkFam" class="push btn btn-primary" href="#family"> FAMILY </button>
+        <button type="button" id="lnkDrinks" class="push btn btn-primary" href="#drinks"> DRINKS </button>
       </div>
       <div class="container">
       <!--BREAKFAST-->
-        <h2 id="breakfast">Breakfast</h2>
+        <h2 id="breakfast" class="noBf">Breakfast</h2>
         <div class="row">
           <div class="col-sm-2">
             <p>Empanadas</p>

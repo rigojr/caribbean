@@ -8,42 +8,42 @@ $('#lnkMenu').click(function(evt) {
 $('#menuN').click(function(evt) {
      evt.preventDefault(); //to prevent from appending hash to url
      $('html, body').animate({
-       'scrollTop':   $('#menu').offset().top
+       'scrollTop':   ($('#menu').offset().top-95)
      }, 800);
 });
 
 $('#lnkBreak').click(function(evt) {
      evt.preventDefault(); //to prevent from appending hash to url
      $('html, body').animate({
-       'scrollTop':   $('#breakfast').offset().top
+       'scrollTop':   ($('#breakfast').offset().top-120)
      }, 800);
 });
 
 $('#lnkLunch').click(function(evt) {
      evt.preventDefault(); //to prevent from appending hash to url
      $('html, body').animate({
-       'scrollTop':   $('#lunch').offset().top
+       'scrollTop':   ($('#lunch').offset().top-95)
      }, 800);
 });
 
 $('#lnkDrinks').click(function(evt) {
      evt.preventDefault(); //to prevent from appending hash to url
      $('html, body').animate({
-       'scrollTop':   $('#drinks').offset().top
+       'scrollTop':   ($('#drinks').offset().top-95)
      }, 800);
 });
 
 $('#lnkFam').click(function(evt) {
      evt.preventDefault(); //to prevent from appending hash to url
      $('html, body').animate({
-       'scrollTop':   $('#family').offset().top
+       'scrollTop':   ($('#family').offset().top-95)
      }, 800);
 });
 
 $('#lnkFam').click(function(evt) {
      evt.preventDefault(); //to prevent from appending hash to url
      $('html, body').animate({
-       'scrollTop':   $('#family').offset().top
+       'scrollTop':   ($('#family').offset().top-95)
      }, 800);
 });
 

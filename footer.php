@@ -1,4 +1,28 @@
 	<?php wp_footer(); ?>
+  <footer>
+    <div class="rrss">
+      <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="https://www.instagram.com/gruptechci/" target="_blank">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook.png" alt="facebook logo">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com/Gruptech-Cloud-Innovations-162171117764577/" target="_blank">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram.png" alt="instagram logo">
+            </a>
+          </li>
+      </ul>
+    </div>
+    <div class="copy">
+      <p class="right">
+        Copyright &copy; <?php echo date('Y'); ?> Caribbean Delight
+      </p>
+      <p class="author">
+        Desing, Development & Management by <a href="https://aeros.io">Aeros</a>
+      </p>
+    </div>
+  </footer>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>

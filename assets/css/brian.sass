@@ -9,21 +9,20 @@ $color2: #0087A2
 $color3: #005877
 $color4: #F5E9BE
 
-$tam-menu: 2vw
-$tam-contact: 1vw
-$tam-attention: 4.3vh
+/* TIPOGRAFIA */
+$tam-menu: 1.2rem
+$tam-contact: .7rem
+$tam-attention: 1.5rem
 $tam-footer-principal: 1rem
-$tamlogo: 42vh
-$tam-icon: 1.5rem
+$tam-footer-secundario: 0.85rem
+$tamlogo: 18rem
+$tam-icon: .9rem
 
-$centerV: 3.084375rem
-$centerH: 5rem
+$centerV: 1.5rem
 
 /* BODY */
 body
 	div.bg
-		height: 100vh
-		min-height: 100vh
 		background-repeat: no-repeat
 		background-size: cover
 
@@ -32,17 +31,15 @@ body
 
 body
 	header
-		height: 14vh
-		margin-bottom: 4.2vh
 		-webkit-transition: all 0.5s ease
 		-moz-transition: all 0.5s ease
 		-o-transition: all 0.5s ease
 		transition: all 0.5s ease
+		margin-bottom: 1.5rem
 		&.fix
 			position: fixed
 			top: 0
-			height: 14vh
-			width: 100vw
+			width: 100%
 			color: $blanco-fuerte
 			background-color: $color1
 			z-index: 999
@@ -51,76 +48,79 @@ body
 			-o-transition: all 0.5s ease
 			transition: all 0.5s ease
 		nav
-			padding: 3vh 0
+			padding-top: .8rem
 			ul
 				li.nav-item
-					padding: 0 .5vw
+					padding: 0 .5rem
 					.vSeparator
 						border-left: 3px solid $blanco-fuerte
 						width: 1px
-						height: 8vh
+						height: 3.3rem
 					a
+						padding-top: 1rem
 						font-size: $tam-menu
 						color: $blanco-fuerte
 						transition: 300ms all ease
-						&:hover, .active
+						&:hover
 							border-bottom: 0.1rem solid $negro-mate !important
 					div.col-sm-12
 						img
 							width: $tam-icon
-							height: $tam-icon
 							display: inline-block
-							margin: 0 .5rem
 						p
 							font-size: $tam-contact
 							color: $blanco-fuerte
+							margin-left: 0.7rem
+							margin-bottom: .6rem
 							display: inline-block
 
 /* FRONTPAGE*/
 body
 	div#cont
 		&.content
-			padding-top: 18.3vh
+			padding-top: 6.28rem
 		div.container
 			div.row
-				div.col-sm
+				div.col-sm-7
 					div.col-sm-12
 						&.attention
 							margin-top: $centerV
 						p
 							font-size: $tam-attention
-							color: $blanco-suave
+							color: #f6f6f6
 							text-shadow: 2px 2px $negro-mate
-							margin: auto 5rem
-							font-weight: 300
+							margin: auto
+							font-weight: 500
+							&.color
+								color: $color4
+				div.col-sm-5
 					img.logoR
 						max-width: 100%
 						width: $tamlogo
-						height: $tamlogo
 						display: block
 						margin: auto
+						margin-top: -5rem
+				
 
+/*LATIN FOOD*/
 body
 	div.container
 		div.row.latin
-			margin-top: -6vh
+			/*margin-top: -6vh*/
 			a
 				img.circle
 					display: block
-					margin: -3.60vh 35vw
+					/*margin: -3.60vh 35vw*/
 					width: 10vw
-					height: 11.6vh
 			div.col-sm-12
 				img
 					display: block
 					max-width: 100%
-					height: 30vh
 					margin: auto
 				p
 					font-size: 1.4rem
 					color: $negro-mate
 					text-align: center
-/* /FRONT PAGE*/
 
 /* MENU */
 body
@@ -128,27 +128,13 @@ body
 		h1
 			text-align: center
 			padding-bottom: .5rem
-		margin-top: 9.60vh
 		div.center
 			width: 100%
 			margin: 0 auto
 			text-align: center
-			padding-bottom: 2.5rem
-			padding-top: 3.5rem
-			a
-				color: $negro-mate
-				text-decoration: none
-				align-self: center
-				padding: 1.5rem
-				margin: 0 1rem
-				transition: all .5s ease
-				outline: none
-				box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2)
-				border-radius: 255px 15px 225px 15px/15px 225px 15px 255px
-				&:hover
-					box-shadow: 2px 8px 4px -6px hsla(0,0%,0%,1)
-				&.lined.thick
-					border: solid 7px #41403E
+			button
+				&.push
+					margin-left: 1rem
 		div.container
 			h2
 				margin-bottom: 2rem
@@ -159,13 +145,42 @@ body
 				img
 					width: 21rem
 
+/* FOOTER */
+
+body
+	footer
+		margin-top: 1rem
+		padding-top: 1rem
+		.rrss
+			margin-bottom: 0.1rem
+			ul
+				li
+					a
+						padding: 0rem 0.5rem
+						transition: 300ms all ease
+						&:hover
+							opacity: 0.5
+						img
+							max-width: 1rem
+		.copy
+			p
+				text-align: center
+				font-weight: 200
+				margin-bottom: 0.1rem
+			.right
+				font-size: $tam-footer-principal
+			.author
+				font-size: $tam-footer-secundario
+
 
 /*RESPONSIVE (MOBILE)*/
 @media screen and (max-width: 48rem)
 	div.container
 		div.row
-			div.col-sm.att
-				display: none
+			div.col-sm-5
+				img.logoR
+					margin-top: 0rem !important
+
 
 	nav
 		display: none
