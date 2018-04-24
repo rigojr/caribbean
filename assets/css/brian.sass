@@ -61,13 +61,19 @@ body
 						font-size: $tam-menu
 						color: $blanco-fuerte
 						transition: 300ms all ease
-						&:hover
+						&.nav-link:hover
 							border-bottom: 0.1rem solid $negro-mate !important
+					a.fbMo
+						display: none
 					div.col-sm-12
 						img
-							width: $tam-icon
-							display: inline-block
-						p
+								width: $tam-icon
+								display: inline-block
+						a
+							img
+								width: $tam-icon
+								display: inline-block
+						p, a
 							font-size: $tam-contact
 							color: $blanco-fuerte
 							margin-left: 0.7rem
@@ -78,7 +84,7 @@ body
 body
 	div#cont
 		&.content
-			padding-top: 6.28rem
+			padding-top: 6.85rem
 		div.container
 			div.row
 				div.col-sm-7
@@ -142,8 +148,14 @@ body
 					margin-top: 4rem
 			div.row
 				margin-top: 1.5rem
-				img
-					width: 21rem
+				div.col-sm-12
+					p.tresg
+						background-color: $color4
+						font-size: 1.2rem
+						width: 100%
+						text-align: center
+						border-radius: 5px
+						padding-top: 2px
 
 /* FOOTER */
 
@@ -174,20 +186,51 @@ body
 
 
 /*RESPONSIVE (MOBILE)*/
-@media screen and (max-width: 48rem)
+@media screen and (max-width: 62rem)
 	div.container
 		div.row
 			div.col-sm-5
 				img.logoR
 					margin-top: 0rem !important
 
+@media screen and (max-width: 62rem)
+	div#cont
+		&.content
+			padding-top: 5.5rem !important
 
-	nav
+@media screen and (max-width: 62rem)
+	body
+		div.bg
+			header
+				div.container
+					div.row
+						ul
+							li.hid
+								display: none
+							li
+								a.fbMo
+									display: inline-block
+									img
+										width: 1.5rem
+										display: inline-block
+										margin-left: 1.5rem
+										background-color: $negro-mate
+										padding: 0.3rem
+										border-radius: 5px
+
+@media screen and (max-width: 22.80rem)
+	div.center
+		button.marg
+			margin-top: 1rem
+		button#lnkFam
+			margin-right: 0.3rem
+
+@media screen and (max-width: 30.31rem)
+	div.center
+		button#lnkDrinks
+			margin-top: 1rem
+
+@media screen and (max-width: 62rem)
+	.hid
 		display: none
 
-	body
-		div.container
-			div.row.latin
-				a
-					img.circle
-							display: none

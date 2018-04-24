@@ -7,7 +7,7 @@
             <div class="col-sm-12 attention">
               <p>Latin and American Breakfast</p>
               <p align="center">Monday - Saturday</p>
-              <p align="right" class="color">9AM - 8PM</p>
+              <p align="right" class="color">6AM - 10:30AM</p>
             </div>
           </div>
           <div class="col-sm-7">
@@ -46,37 +46,19 @@
       <div class="center">
         <button type="button" id="lnkBreak" class="btn btn-primary" href="#breakfast"> BREAKFAST </button>
         <button type="button" id="lnkLunch" class="push btn btn-primary" href="#lunch"> LUNCH </button>
-        <button type="button" id="lnkFam" class="push btn btn-primary" href="#family"> FAMILY </button>
-        <button type="button" id="lnkDrinks" class="push btn btn-primary" href="#drinks"> DRINKS </button>
+        <button type="button" id="lnkFam" class="push btn btn-primary marg" href="#family"> FAMILY </button>
+        <button type="button" id="lnkDrinks" class="push btn btn-primary marg" href="#drinks"> DRINKS </button>
       </div>
       <div class="container">
       <!--BREAKFAST-->
         <h2 id="breakfast" class="noBf">Breakfast</h2>
-        <div class="row">
-          <div class="col-sm-2">
-            <p>Empanadas</p>
-          </div>
-          <div class="col-sm-2">
-            <div class="col-sm-12">Ground Beef</div>
-            <div class="col-sm-12">Chicken</div>
-            <div class="col-sm-12">Cheese</div>
-            <div class="col-sm-12">Cod Fish</div>
-            <div class="col-sm-12">Egg</div>
-          </div>
-          <div class="col-sm-2">
-            <div class="col-sm-12">&nbsp;</div>
-            <div class="col-sm-12">x1  $2.55</div>
-            <div class="col-sm-12">x2  $5.00</div>
-            <div class="col-sm-12">x3  $6.50</div>
-            <div class="col-sm-12">&nbsp;</div>
-          </div>
-        </div>
+        
         <div class="row">
           <div class="col-sm-4">
-            <p>Shrimp Empanada</p>
+            <p>Cheese Finger</p>
           </div>
           <div class="col-sm-2">
-            <p>$3.00</p>
+            <p>$2.25</p>
           </div>
           <div class="col-sm-4">
             <p>Stuffed Potatoes</p>
@@ -87,18 +69,214 @@
         </div>
         <div class="row">
           <div class="col-sm-4">
-            <div class="col-sm-12">Mangu</div>
-            <div class="col-sm-12">(Mashed Green Plantain)</div>
+            <p>Corn Arepa with Cheese</p>
+          </div>
+          <div class="col-sm-2">
+            <p>$3.50</p>
+          </div>
+          <div class="col-sm-4">
+            <p>Bono Bread</p>
+          </div>
+          <div class="col-sm-2">
+            <p>$2.00</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <p>Cheese Cachapa</p>
+          </div>
+          <div class="col-sm-2">
+            <p>$6.25</p>
+          </div>
+          <div class="col-sm-4">
+            <p>Ham Cachito</p>
+          </div>
+          <div class="col-sm-2">
+            <p>$2.75</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <p>Scrambled Egg or 2 Fried Eggs with 1 Side</p>
+          </div>
+          <div class="col-sm-2">
+            <p>$4.00</p>
+          </div>
+          <div class="col-sm-4">
+            <p>Arepa - 2 Pancakes</p>
+          </div>
+          <div class="col-sm-2">
+            <p>$1.75</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <p>Fried Cheese or Fried Salami</p>
+          </div>
+          <div class="col-sm-2">
+            <p>$1.75</p>
+          </div>
+          <div class="col-sm-4">
+            <p>Avocado or Fried Salami</p>
+          </div>
+          <div class="col-sm-2">
+            <p>$1.75</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <p>2 Bacon, 2 Link or Patty Sausage &amp; Ham</p>
+          </div>
+          <div class="col-sm-2">
+            <p>$2.50</p>
+          </div>
+          <div class="col-sm-4">
+            <p>Mangú, 2 Eggs with Marinated Onions</p>
+          </div>
+          <div class="col-sm-2">
+            <p>$5.25</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <p> Mangu </p> 
+            <p>(Mashed Green Plantain)</p>
           </div>
           <div class="col-sm-2">
             <p>$9.99</p>
           </div>
           <div class="col-sm-4">
-            <div class="col-sm-12">Mofongo</div>
-            <div class="col-sm-12">(Fried and Mashed Green Plantain)</div>
+            <p> Mofongo </p> 
+            <p>(Fried and Mashed Green Plantain)</p>
           </div>
           <div class="col-sm-2">
             <p>$9.99</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="tresg">EMPANADAS</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <p>Venezuelan</p>
+          </div>
+          <div class="col-sm-6">
+            <p> Ground Beef </p>
+            <p> Shredded Beef </p>
+            <p> Chicken </p>
+            <p> Cheese &amp; Ham </p>
+          </div>
+          <div class="col-sm-2">
+            <p> x1 - $2.75 </p>
+            <p> x2 - $5.40 </p>
+            <p> x3 - $7.50 </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <p>Colombian</p>
+          </div>
+          <div class="col-sm-6">
+            <p> Ground Beef </p>
+            <p> Chicken </p>
+            <p> Cheese </p>
+          </div>
+          <div class="col-sm-2">
+            <p> x1 - $2.00 </p>
+            <p> x2 - $3.75 </p>
+            <p> x3 - $5.00 </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="tresg">SANDWICHES</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <p> Egg &amp; Cheese Sandwich</p> 
+          </div>
+          <div class="col-sm-2">
+            <p>$3.00</p>
+          </div>
+          <div class="col-sm-4">
+            <p> Egg, Cheese &amp; Ham Sandwich </p>
+          </div>
+          <div class="col-sm-2">
+            <p>$3.75/p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <p> Egg, Cheese &amp; Bacon Sandwich</p> 
+          </div>
+          <div class="col-sm-2">
+            <p>$4.25</p>
+          </div>
+          <div class="col-sm-4">
+            <p> Egg, Cheese &amp; Sausage Sandwich </p>
+          </div>
+          <div class="col-sm-2">
+            <p>$4.25/p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <p> Egg &amp; Cheese Sandwich Arepa</p> 
+          </div>
+          <div class="col-sm-2">
+            <p>$3.00</p>
+          </div>
+          <div class="col-sm-4">
+            <p> Ham &amp; Cheese Sandwich Arepa</p>
+          </div>
+          <div class="col-sm-2">
+            <p>$3.50</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <p> Egg, Cheese &amp; Ham Sandwich Arepa</p> 
+          </div>
+          <div class="col-sm-2">
+            <p>$4.25</p>
+          </div>
+          <div class="col-sm-4">
+            <p> Egg, Cheese &amp; Bacon Sandwich Arepa</p>
+          </div>
+          <div class="col-sm-2">
+            <p>$4.25</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <p> Egg, Cheese &amp; Sausage Sandwich Arepa</p> 
+          </div>
+          <div class="col-sm-2">
+            <p>$4.25</p>
+          </div>
+          <div class="col-sm-4">
+            <p>Grilled Cheese Sandwich</p>
+            <p>Grilled Cheese &amp; Ham Sandwich</p>
+          </div>
+          <div class="col-sm-2">
+            <p>$2.75</p>
+            <p>$3.25</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="tresg">Caribbean Breakfast Platter 3s Gorpes</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-10">
+            <p>2 Fried Eggs or Scramble / Mangú / Yuca / 2 Fried Cheese &amp; 2 Salami</p>
+          </div>
+          <div class="col-sm-2">
+            <p>$7.50</p>
           </div>
         </div>
 
@@ -339,48 +517,70 @@
           <!-- DRINKS -->
           <h2 id="drinks" class="noBf">Drinks</h2>
           <div class="row">
-              <div class="col-sm-4"><p>16 oz</p></div>
-              <div class="col-sm-2">$2.00</div>
-          </div>
-          <div class="row">
-              <div class="col-sm-4"><p>32 oz</p></div>
-              <div class="col-sm-2">$3.50</div>
-          </div>
-          <div class="row">
             <div class="col-sm-4">
-              <p>Lemonade</p>
+              <p>Coffe</p>
+              <p>12oz</p>
+              <p>16oz</p>
             </div>
             <div class="col-sm-2">
+              <p>&nbsp;</p>
+              <p>$1.25</p>
+              <p>$2.00</p>
+            </div>
+            <div class="col-sm-4">
+              <p>Hot Chocolate</p>
+              <p>12oz</p>
+              <p>16oz</p>
+            </div>
+            <div class="col-sm-2">
+              <p>&nbsp;</p>
+              <p>$1.50</p>
+              <p>$2.50</p>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-sm-4">
+                <p>Orange Juice 16Oz</p>
+              </div>
+              <div class="col-sm-2">
+                <p>$2.75</p>
+              </div>
+              <div class="col-sm-4">
+                <p><i>"Morir Soñando"</i></p>
+              </div>
+              <div class="col-sm-2">
+                <p>$3.50 - $4.50</p>
+              </div>
+            </div>
+          <div class="row">
+          <div class="col-sm-12">
+            <p class="tresg">16oz - $2.00 &emsp; &amp; &emsp; 32oz - $3.50</p>
+          </div>
+        </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <p>Lemonade</p>
+            </div>
+            <div class="col-sm-6">
               <p>Passion Fruit</p>
             </div>
           </div>
             <div class="row">
-              <div class="col-sm-4">
+              <div class="col-sm-6">
                 <p>Tamarind</p>
               </div>
-              <div class="col-sm-2">
+              <div class="col-sm-6">
                 <p>Soursop</p>
               </div>
             </div>
             <div class="row">
-              <div class="col-sm-4">
+              <div class="col-sm-6">
                 <p>BlackBerry</p>
               </div>
-              <div class="col-sm-2">
+              <div class="col-sm-6">
                 <p>Soursop</p>
               </div>
             </div>
-
-            <br>
-
-          <div class="row">
-            <div class="col-sm-4">
-              <p><i>"Morir Soñando"</i></p>
-            </div>
-            <div class="col-sm-2">
-              <p>$3.50 - $4.50</p>
-            </div>
-          </div>
         </div>
       </div>
 

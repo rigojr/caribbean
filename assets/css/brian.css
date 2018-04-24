@@ -36,12 +36,17 @@ body header {
         font-size: 1.2rem;
         color: #FFFFFF;
         transition: 300ms all ease; }
-        body header nav ul li.nav-item a:hover {
+        body header nav ul li.nav-item a.nav-link:hover {
           border-bottom: 0.1rem solid #3B3B3B !important; }
+      body header nav ul li.nav-item a.fbMo {
+        display: none; }
       body header nav ul li.nav-item div.col-sm-12 img {
         width: 0.9rem;
         display: inline-block; }
-      body header nav ul li.nav-item div.col-sm-12 p {
+      body header nav ul li.nav-item div.col-sm-12 a img {
+        width: 0.9rem;
+        display: inline-block; }
+      body header nav ul li.nav-item div.col-sm-12 p, body header nav ul li.nav-item div.col-sm-12 a {
         font-size: 0.7rem;
         color: #FFFFFF;
         margin-left: 0.7rem;
@@ -50,7 +55,7 @@ body header {
 
 /* FRONTPAGE */
 body div#cont.content {
-  padding-top: 6.28rem; }
+  padding-top: 6.85rem; }
 body div#cont div.container div.row div.col-sm-7 div.col-sm-12.attention {
   margin-top: 1.5rem; }
 body div#cont div.container div.row div.col-sm-7 div.col-sm-12 p {
@@ -100,8 +105,13 @@ body div#menu div.container h2 {
     margin-top: 4rem; }
 body div#menu div.container div.row {
   margin-top: 1.5rem; }
-  body div#menu div.container div.row img {
-    width: 21rem; }
+  body div#menu div.container div.row div.col-sm-12 p.tresg {
+    background-color: #F5E9BE;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 2px; }
 
 /* FOOTER */
 body footer {
@@ -126,14 +136,34 @@ body footer {
     font-size: 0.85rem; }
 
 /*RESPONSIVE (MOBILE) */
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 62rem) {
   div.container div.row div.col-sm-5 img.logoR {
-    margin-top: 0rem !important; }
-
-  nav {
+    margin-top: 0rem !important; } }
+@media screen and (max-width: 62rem) {
+  div#cont.content {
+    padding-top: 5.5rem !important; } }
+@media screen and (max-width: 62rem) {
+  body div.bg header div.container div.row ul li.hid {
     display: none; }
-
-  body div.container div.row.latin a img.circle {
+  body div.bg header div.container div.row ul li a.fbMo {
+    display: inline-block; }
+    body div.bg header div.container div.row ul li a.fbMo img {
+      width: 1.5rem;
+      display: inline-block;
+      margin-left: 1.5rem;
+      background-color: #3B3B3B;
+      padding: 0.3rem;
+      border-radius: 5px; } }
+@media screen and (max-width: 22.8rem) {
+  div.center button.marg {
+    margin-top: 1rem; }
+  div.center button#lnkFam {
+    margin-right: 0.3rem; } }
+@media screen and (max-width: 30.31rem) {
+  div.center button#lnkDrinks {
+    margin-top: 1rem; } }
+@media screen and (max-width: 62rem) {
+  .hid {
     display: none; } }
 
 /*# sourceMappingURL=brian.css.map */

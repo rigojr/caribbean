@@ -3,12 +3,12 @@
     <div class="rrss">
       <ul class="nav justify-content-center">
           <li class="nav-item">
-            <a class="nav-link active" href="https://www.instagram.com/gruptechci/" target="_blank">
+            <a class="nav-link active" href="https://www.facebook.com/CaribbeanDelight.NC/" target="_blank">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook.png" alt="facebook logo">
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.facebook.com/Gruptech-Cloud-Innovations-162171117764577/" target="_blank">
+            <a class="nav-link">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram.png" alt="instagram logo">
             </a>
           </li>
