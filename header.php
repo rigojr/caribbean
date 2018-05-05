@@ -25,7 +25,7 @@
       						<a class="nav-link" id="menuN" href="#menu">Menu</a>
     						</li>
     						<li class="nav-item hid">
-     							<a class="nav-link" href="#">Drinks</a>
+     							<a class="nav-link" href="#drinks">Drinks</a>
     						</li>
     						<li class="nav-item hid">
       						<a class="nav-link" href="#">Catering</a>
@@ -41,14 +41,18 @@
                 </li>
                 <li class="nav-item"> 
                   <div class=" col-sm-12 hid">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/phone-receiver.png">
+                    <img class="display-img-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/phone-receiver.png">
+                    <img class="display-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/phone-receiver-blue.png">
                     <p>(919) 243-1618</p>
                   </div>
                   <div class="col-sm-12 hid">
-                    <a target="_blank" style="text-decoration: none;" href="https://www.facebook.com/CaribbeanDelight.NC/">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook-logo.png">
-                      /CaribbeanDelight
+                    <img class="display-img-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook-logo.png">
+                    <img class="display-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook-logo-blue.png">
+                    <p>
+                    <a target="_blank" style="text-decoration: none;" href="https://www.facebook.com/CaribbeanDelight.NC/" class="especial-a">
+                      /CaribbeanDelight.NC
                     </a>
+                    </p>
                   </div>
                   <a target="_blank" class="fbMo" style="text-decoration: none;" href="https://www.facebook.com/CaribbeanDelight.NC/">
                       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook-logo.png">

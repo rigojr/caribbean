@@ -42,7 +42,7 @@
 
   <!-- MENU -->
   <div id="menu" class="container">
-      <h1>MENU</h1>
+      <h1>TRADITIONAL MENU</h1>
       <div class="center">
         <button type="button" id="lnkBreak" class="btn btn-primary" href="#breakfast"> BREAKFAST </button>
         <button type="button" id="lnkLunch" class="push btn btn-primary" href="#lunch"> LUNCH </button>

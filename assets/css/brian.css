@@ -16,13 +16,20 @@ body header {
     position: fixed;
     top: 0;
     width: 100%;
-    color: #FFFFFF;
     background-color: #33DDFF;
     z-index: 999;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease; }
+    body header.fix a, body header.fix p {
+      color: #005877 !important; }
+    body header.fix .vSeparator {
+      border-left-color: #005877 !important; }
+    body header.fix .display-img {
+      display: inline-block !important; }
+    body header.fix .display-img-2 {
+      display: none !important; }
   body header nav {
     padding-top: 0.8rem; }
     body header nav ul li.nav-item {
@@ -40,6 +47,8 @@ body header {
           border-bottom: 0.1rem solid #3B3B3B !important; }
       body header nav ul li.nav-item a.fbMo {
         display: none; }
+      body header nav ul li.nav-item div.col-sm-12 .display-img {
+        display: none; }
       body header nav ul li.nav-item div.col-sm-12 img {
         width: 0.9rem;
         display: inline-block; }
@@ -47,11 +56,14 @@ body header {
         width: 0.9rem;
         display: inline-block; }
       body header nav ul li.nav-item div.col-sm-12 p, body header nav ul li.nav-item div.col-sm-12 a {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         color: #FFFFFF;
-        margin-left: 0.7rem;
+        margin-left: 0.9rem;
         margin-bottom: 0.6rem;
         display: inline-block; }
+      body header nav ul li.nav-item div.col-sm-12 .especial-a {
+        margin-left: 0rem !important;
+        padding-top: 0rem !important; }
 
 /* FRONTPAGE */
 body div#cont.content {

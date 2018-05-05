@@ -11,7 +11,7 @@ $color4: #F5E9BE
 
 /* TIPOGRAFIA */
 $tam-menu: 1.2rem
-$tam-contact: .7rem
+$tam-contact: .9rem
 $tam-attention: 1.5rem
 $tam-footer-principal: 1rem
 $tam-footer-secundario: 0.85rem
@@ -40,13 +40,20 @@ body
 			position: fixed
 			top: 0
 			width: 100%
-			color: $blanco-fuerte
 			background-color: $color1
 			z-index: 999
 			-webkit-transition: all 0.5s ease
 			-moz-transition: all 0.5s ease
 			-o-transition: all 0.5s ease
 			transition: all 0.5s ease
+			a, p
+				color: $color3 !important
+			.vSeparator
+				border-left-color: $color3 !important
+			.display-img
+				display: inline-block !important
+			.display-img-2
+				display: none !important
 		nav
 			padding-top: .8rem
 			ul
@@ -66,9 +73,11 @@ body
 					a.fbMo
 						display: none
 					div.col-sm-12
+						.display-img
+							display: none
 						img
-								width: $tam-icon
-								display: inline-block
+							width: $tam-icon
+							display: inline-block
 						a
 							img
 								width: $tam-icon
@@ -76,9 +85,12 @@ body
 						p, a
 							font-size: $tam-contact
 							color: $blanco-fuerte
-							margin-left: 0.7rem
+							margin-left: 0.9rem
 							margin-bottom: .6rem
 							display: inline-block
+						.especial-a
+							margin-left: 0rem !important
+							padding-top: 0rem !important
 
 /* FRONTPAGE*/
 body
