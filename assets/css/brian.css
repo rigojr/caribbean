@@ -154,6 +154,8 @@ body footer {
     font-size: 1rem; }
   body footer .copy .author {
     font-size: 0.85rem; }
+body .contacto-centro {
+  margin: auto; }
 
 /*RESPONSIVE (MOBILE) */
 @media screen and (max-width: 62rem) {

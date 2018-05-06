@@ -581,7 +581,9 @@
                 <p>Soursop</p>
               </div>
             </div>
+            <h2 id="contact" class="noBf">Contact</h2>
         </div>
-      </div>
+        </div>
+        </div>
 <?php get_template_part( 'contact-line' ); ?>
 <?php get_footer(); ?>
