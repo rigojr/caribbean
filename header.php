@@ -25,16 +25,13 @@
       						<a class="nav-link" id="menuN" href="#menu">Menu</a>
     						</li>
     						<li class="nav-item hid">
-     							<a class="nav-link" href="#drinks">Drinks</a>
+      						<a class="nav-link" href="#">Catering &amp; Events</a>
     						</li>
     						<li class="nav-item hid">
-      						<a class="nav-link" href="#">Catering</a>
+      						<a class="nav-link" href="">About</a>
     						</li>
     						<li class="nav-item hid">
-      						<a class="nav-link" href="#">About</a>
-    						</li>
-    						<li class="nav-item hid">
-      						<a id="myBtnS" class="nav-link" href="#">Contact</a>
+      						<a id="myBtnS" class="nav-link" href="#contact">Contact</a>
     						</li>
                 <li class="nav-item hid">
                   <div class="vSeparator"></div>
