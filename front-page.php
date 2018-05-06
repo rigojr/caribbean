@@ -51,7 +51,7 @@
       </div>
       <div class="container">
       <!--BREAKFAST-->
-        <h2 id="breakfast" class="noBf">Breakfast</h2>
+        <div id="breakfast" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/breakfast-banner.jpg');" class="noBf"></div>
         
         <div class="row">
           <div class="col-sm-4">
@@ -282,7 +282,7 @@
 
         <!--LUNCH-->
 
-        <div id="lunch" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/prueba.jpg');" class="noBf"></div>
+        <div id="lunch" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/lunch-banner.jpg');" class="noBf"></div>
         <div class="row">
           <div class="col-sm-4">
             <p>Fried Chicken</p>
@@ -476,7 +476,7 @@
           </div>
 
           <!-- FAMILY -->
-          <h2 id="family" class="noBf">Family Combos</h2>
+          <div id="family" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/combos-banner.jpg');" class="noBf"></div>
           <div class="row">
             <div class="col-sm-4">
               <p>Roasted Chicken, White Rice, Beans + 1 Side</p>
@@ -515,7 +515,7 @@
             </div>
 
           <!-- DRINKS -->
-          <h2 id="drinks" class="noBf">Drinks</h2>
+          <div id="drinks" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/drikns-banner.jpg');" class="noBf"></div>
           <div class="row">
             <div class="col-sm-4">
               <p>Coffe</p>
@@ -581,7 +581,7 @@
                 <p>Soursop</p>
               </div>
             </div>
-            <h2 id="contact" class="noBf">Contact</h2>
+            <div id="contact" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/contact-banner.jpg');" class="noBf"></div>
         </div>
         </div>
         </div>

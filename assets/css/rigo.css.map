@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AACC,UAAK;EACJ,iBAAiB,EAAE,oBAAoB;EACvC,mBAAmB,EAAE,iBAAiB;EACtC,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI",
+"mappings": "AACC,UAAK;EACJ,iBAAiB,EAAE,oBAAoB;EACvC,mBAAmB,EAAE,iBAAiB;EACtC,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;EACpB,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,SAAS",
 "sources": ["rigo.sass"],
 "names": [],
 "file": "rigo.css"
