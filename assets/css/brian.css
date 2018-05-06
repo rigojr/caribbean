@@ -1,5 +1,11 @@
 /* PALETA */
 /* TIPOGRAFIA */
+.text-white {
+  font-size: 1rem !important; }
+
+.text-muted {
+  font-size: 0.75rem !important; }
+
 /* BODY */
 body div.bg {
   background-repeat: no-repeat;
@@ -64,6 +70,8 @@ body header {
       body header nav ul li.nav-item div.col-sm-12 .especial-a {
         margin-left: 0rem !important;
         padding-top: 0rem !important; }
+body .mobile-navigation {
+  display: none; }
 
 /* FRONTPAGE */
 body div#cont.content {
@@ -149,23 +157,28 @@ body footer {
 
 /*RESPONSIVE (MOBILE) */
 @media screen and (max-width: 62rem) {
-  div.container div.row div.col-sm-5 img.logoR {
+  div.container div.col-sm-5 img.logoR {
     margin-top: 0rem !important; } }
 @media screen and (max-width: 62rem) {
   div#cont.content {
-    padding-top: 5.5rem !important; } }
+    padding-top: 0rem !important; } }
 @media screen and (max-width: 62rem) {
-  body div.bg header div.container div.row ul li.hid {
+  body div.bg .mobile-navigation {
+    display: inline-block !important;
+    width: 100%; }
+  body div.bg header {
     display: none; }
-  body div.bg header div.container div.row ul li a.fbMo {
-    display: inline-block; }
-    body div.bg header div.container div.row ul li a.fbMo img {
-      width: 1.5rem;
-      display: inline-block;
-      margin-left: 1.5rem;
-      background-color: #3B3B3B;
-      padding: 0.3rem;
-      border-radius: 5px; } }
+    body div.bg header div.container div.row ul li.hid {
+      display: none; }
+    body div.bg header div.container div.row ul li a.fbMo {
+      display: inline-block; }
+      body div.bg header div.container div.row ul li a.fbMo img {
+        width: 1.5rem;
+        display: inline-block;
+        margin-left: 1.5rem;
+        background-color: #3B3B3B;
+        padding: 0.3rem;
+        border-radius: 5px; } }
 @media screen and (max-width: 22.8rem) {
   div.center button.marg {
     margin-top: 1rem; }
@@ -177,5 +190,10 @@ body footer {
 @media screen and (max-width: 62rem) {
   .hid {
     display: none; } }
+.rrssB {
+  float: right;
+  margin-top: -0.7rem; }
+  .rrssB .rs {
+    display: inline-block; }
 
 /*# sourceMappingURL=brian.css.map */

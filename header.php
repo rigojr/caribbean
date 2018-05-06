@@ -63,3 +63,35 @@
   			</div>
   		</div>
   	</header>
+
+    <div class="pos-f-t mobile-navigation">
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <h4 class="text-white">Main Menu</h4>
+        <span class="text-muted">Call us on (919) 243-1618
+          <div class="rrssB">
+            <a class="nav-link rs" href="https://www.facebook.com/Gruptech-Cloud-Innovations-162171117764577/" target="_blank">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook-logo.png" alt="facebook logo">
+            </a>
+            <a class="nav-link rs psh" href="https://www.instagram.com/gruptechci/" target="_blank">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram-logo.png" alt="instagram logo">
+            </a>
+        </div>
+        </span>
+        
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" id="homeM" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="menuM" href="#menu">Menu</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <nav class="navbar navbar-dark bg-primary">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+  </div>

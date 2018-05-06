@@ -20,6 +20,12 @@ $tam-icon: .9rem
 
 $centerV: 1.5rem
 
+.text-white
+	font-size: 1rem !important
+
+.text-muted
+	font-size: .75rem !important
+
 /* BODY */
 body
 	div.bg
@@ -91,6 +97,8 @@ body
 						.especial-a
 							margin-left: 0rem !important
 							padding-top: 0rem !important
+	.mobile-navigation
+		display: none
 
 /* FRONTPAGE*/
 body
@@ -198,22 +206,28 @@ body
 
 
 /*RESPONSIVE (MOBILE)*/
+
 @media screen and (max-width: 62rem)
 	div.container
 		div.row
-			div.col-sm-5
-				img.logoR
-					margin-top: 0rem !important
+		div.col-sm-5
+			img.logoR
+				margin-top: 0rem !important
 
 @media screen and (max-width: 62rem)
 	div#cont
 		&.content
-			padding-top: 5.5rem !important
+			padding-top: 0rem !important 
+	
 
 @media screen and (max-width: 62rem)
 	body
 		div.bg
+			.mobile-navigation
+				display: inline-block !important
+				width: 100%
 			header
+				display: none
 				div.container
 					div.row
 						ul
@@ -246,3 +260,8 @@ body
 	.hid
 		display: none
 
+.rrssB
+	float: right
+	margin-top: -.7rem
+	.rs
+		display: inline-block
