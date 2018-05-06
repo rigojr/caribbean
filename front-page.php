@@ -282,7 +282,7 @@
 
         <!--LUNCH-->
 
-        <h2 id="lunch" class="noBf">Lunch</h2>
+        <div id="lunch" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/prueba.jpg');" class="noBf"></div>
         <div class="row">
           <div class="col-sm-4">
             <p>Fried Chicken</p>

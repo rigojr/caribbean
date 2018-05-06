@@ -1,3 +1,7 @@
-
+body .noBf {
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  padding-top: 6rem;
+  padding-bottom: 3rem; }
 
 /*# sourceMappingURL=rigo.css.map */

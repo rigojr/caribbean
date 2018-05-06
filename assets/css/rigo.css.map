@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AACC,UAAK;EACJ,iBAAiB,EAAE,oBAAoB;EACvC,mBAAmB,EAAE,iBAAiB;EACtC,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI",
+"sources": ["rigo.sass"],
 "names": [],
 "file": "rigo.css"
 }
