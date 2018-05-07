@@ -5,18 +5,18 @@
         <div class="row">
           <div class="col-sm-7">
             <div class="col-sm-12 attention">
-              <p>Latin and American Breakfast</p>
+              <p class="serv">Latin and American Breakfast</p>
               <p align="center">Monday - Saturday</p>
-              <p align="right" class="color">6AM - 10:30AM</p>
+              <p class="color">6AM - 10:30AM</p>
             </div>
           </div>
           <div class="col-sm-7">
             <div class="col-sm-12 attention">
-              <p>Dominican Lunch and Dinner</p>
+              <p class="serv">Dominican Lunch and Dinner</p>
               <p align="center">Monday - Thursday</p>
-              <p align="right" class="color">9AM - 8PM</p>
+              <p class="color">9AM - 8PM</p>
               <p align="center">Friday &amp; Saturday</p>
-              <p align="right" class="color">9AM - 9PM</p>
+              <p class="color">9AM - 9PM</p>
             </div>
           </div>
             <div class="col-sm-5">
@@ -205,7 +205,7 @@
             <p> Egg, Cheese &amp; Ham Sandwich </p>
           </div>
           <div class="col-sm-2">
-            <p>$3.75/p>
+            <p>$3.75</p>
           </div>
         </div>
         <div class="row">
@@ -219,7 +219,7 @@
             <p> Egg, Cheese &amp; Sausage Sandwich </p>
           </div>
           <div class="col-sm-2">
-            <p>$4.25/p>
+            <p>$4.25</p>
           </div>
         </div>
         <div class="row">
@@ -579,6 +579,74 @@
               </div>
               <div class="col-sm-6">
                 <p>Soursop</p>
+              </div>
+            </div>
+
+            <!--CATERING-->
+
+            <div id="catering" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/lunch-banner.jpg');" class="noBf"></div>
+            <div class="row">
+              <div class="col-sm-6">
+                <p>Rice with Pigeon Peas</p>
+                <p>White Rice</p>
+              </div>
+              <div class="col-sm-6">
+                <p>Rice with Black Beans</p>
+                <p>White Red Beans</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <p>Roast Pork</p>
+                <p>Pepper Steak</p>
+              </div>
+              <div class="col-sm-6">
+                <p>Beef Stew</p>
+                <p>Oxtail Stew</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <p>Codfish</p>
+                <p>Chicken (3, 5 and 8 pieces)</p>
+              </div>
+              <div class="col-sm-6">
+                <p>Chicken Stew</p>
+                <p>Goat</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <p>Green Salad</p>
+                <p>Potato Salad</p>
+              </div>
+              <div class="col-sm-6">
+                <p>Pasta</p>
+                <p>Cassava or Green Banana</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <p>Sweet Plantains</p>
+                <p>Spaghetti with Chicken</p>
+              </div>
+              <div class="col-sm-6">
+                <p>Chicken Chunks</p>
+                <p>Boneless Chicken Chunks</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <p>BBQ Spare Ribs</p>
+                <p>Seafood Platter</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 tresg">
+                <p class="tresg">PICADERAS</p>
+                <hr>
+                <p>Cheese, Salami and Sausage</p>
+                <p>Beef, Pork and Chicken</p>
               </div>
             </div>
             <div id="contact" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/contact-banner.jpg');" class="noBf"></div>

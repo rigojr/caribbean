@@ -12,6 +12,7 @@
 </head>
 
 <body>
+  <img id="top" src="<?php echo get_template_directory_uri(); ?>/assets/img/arrow-up.png">
   <div class="bg" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/First-View.jpg');">
   	<header id="navbar">
   		<div class="container">
@@ -25,13 +26,13 @@
       						<a class="nav-link" id="menuN" href="#menu">Menu</a>
     						</li>
     						<li class="nav-item hid">
-      						<a class="nav-link" href="#">Catering &amp; Events</a>
+      						<a class="nav-link" id="cateringN" href="#">Catering &amp; Events</a>
     						</li>
     						<li class="nav-item hid">
       						<a class="nav-link" href="">About</a>
     						</li>
     						<li class="nav-item hid">
-      						<a id="myBtnS" class="nav-link" href="#contact">Contact</a>
+      						<a class="nav-link" id="contactN" href="#contact">Contact</a>
     						</li>
                 <li class="nav-item hid">
                   <div class="vSeparator"></div>
@@ -82,6 +83,12 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" id="menuM" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="cateringM" href="#catering">Catering &amp; Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="contactM" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
