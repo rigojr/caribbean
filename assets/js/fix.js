@@ -6,12 +6,18 @@ $(window).bind('scroll', function () {
         $(this).animate({
         	'animCont': $('#cont').addClass('content')
         }, 5000)
+        $("#top").animate({
+            'animTop': $('#top').addClass('top')
+        }, 5000)
     } else {
          $("header").animate({
         	'animHead': $('header').removeClass('fix')
         }, 5000)
         $("#cont").animate({
         	'animCont': $('#cont').removeClass('content')
+        }, 5000)
+        $("#top").animate({
+            'animTop': $('#top').removeClass('top')
         }, 5000)
     }
 });
