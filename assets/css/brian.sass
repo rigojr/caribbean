@@ -2,6 +2,12 @@ $negro-fuerte: #000000
 $negro-mate: #3B3B3B
 $blanco-fuerte: #FFFFFF
 $blanco-suave: #EDEEF6
+$verde-fosfo: #0DFF72
+$azul-mate: #22448E
+$azul-fosfo: #00B9FF
+$moradito: #494A9F
+$gris: #A6A6A6
+$verde-obscurito: #28A745
 
 /* PALETA */
 $color1: #33DDFF
@@ -25,6 +31,15 @@ $centerV: 1.5rem
 
 .text-muted
 	font-size: .75rem !important
+
+/*arrow*/
+#top
+	width: 2rem
+	display: none
+	webkit-transition: all 0.5s ease
+	-moz-transition: all 0.5s ease
+	-o-transition: all 0.5s ease
+	transition: all 0.5s ease
 
 /* BODY */
 body
@@ -66,14 +81,13 @@ body
 				li.nav-item
 					padding: 0 .5rem
 					.vSeparator
-						border-left: 3px solid $blanco-fuerte
+						border-left: 3px solid $blanco-fuerte !important
 						width: 1px
 						height: 3.3rem
 					a
 						padding-top: 1rem
 						font-size: $tam-menu
 						color: $blanco-fuerte
-						transition: 300ms all ease
 						&.nav-link:hover
 							border-bottom: 0.1rem solid $negro-mate !important
 					a.fbMo
@@ -119,6 +133,7 @@ body
 							font-weight: 500
 							&.color
 								color: $color4
+								text-align: right
 				div.col-sm-5
 					img.logoR
 						max-width: 100%
@@ -132,11 +147,9 @@ body
 body
 	div.container
 		div.row.latin
-			/*margin-top: -6vh*/
 			a
 				img.circle
 					display: block
-					/*margin: -3.60vh 35vw*/
 					width: 10vw
 			div.col-sm-12
 				img
@@ -176,7 +189,13 @@ body
 						text-align: center
 						border-radius: 5px
 						padding-top: 2px
-
+					&.tresg
+						background-color: $color4
+						font-size: 1.2rem
+						width: 100%
+						text-align: center
+						border-radius: 5px
+						padding-top: 2px
 /* FOOTER */
 
 body
@@ -205,6 +224,53 @@ body
 				font-size: $tam-footer-secundario
 	.contacto-centro
 		margin: auto
+
+/*FORM*/
+.form-control, .wpcf7-text , .wpcf7-number, .wpcf7-select , .wpcf7-textarea, .wpcf7-submit
+	display: block
+	width: 100%
+	height: 34px
+	padding: 6px 12px
+	font-size: 14px
+	line-height: 1.42857143
+	color: #555
+	background-color: #fff
+	background-image: none
+	border: 1px solid #ccc
+	border-radius: 4px
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075)
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075)
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+
+.wpcf7-text:hover , .wpcf7-number:hover, .wpcf7-select:hover , .wpcf7-textarea:hover, .wpcf7-submit:hover
+	border: 1px solid #555
+
+.wpcf7-text:focus , .wpcf7-number:focus, .wpcf7-select:focus , .wpcf7-textarea:focus, .wpcf7-submit:focus
+	border: 1px solid #555 !important
+
+.wpcf7-textarea
+	height: 5rem
+
+.wpcf7-submit
+	width: 50%
+	margin: 0 auto
+	font-size: 1.5rem !important
+	color: $blanco-fuerte !important
+	border-radius: 50px !important
+	background-color: $verde-fosfo !important
+	border-color: $verde-fosfo !important
+	font-weight: 700
+	background-size: cover
+	box-shadow: 12px 15px 20px rgba(0,0,0,.1)
+	transition: 300ms all ease
+	padding-bottom: 2.5rem
+	cursor: pointer
+	&:hover
+		box-shadow: 2px 4px 8px 0 rgba(0,0,0,.1)
+		background-color: $verde-obscurito !important
+		border-color: $verde-obscurito !important
 
 
 /*RESPONSIVE (MOBILE)*/
@@ -245,6 +311,18 @@ body
 										background-color: $negro-mate
 										padding: 0.3rem
 										border-radius: 5px
+	p.color, p.serv, p.color
+		text-align: center !important
+	.top
+		display: block !important
+		position: fixed
+		bottom: 1rem
+		right: 1rem
+		z-index: 2
+		webkit-transition: all 0.5s ease
+		-moz-transition: all 0.5s ease
+		-o-transition: all 0.5s ease
+		transition: all 0.5s ease
 
 @media screen and (max-width: 22.80rem)
 	div.center
